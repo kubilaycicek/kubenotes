@@ -1,6 +1,6 @@
 Kubernetes Components
 =======
-* Kube-ApiServer : Komponent ve nodelar ile iletişim noktasıdır.
+* Kube-ApiServer : Komponent ve nodelar ile iletişim noktasıdır. Kubernetes ile iletişim kurmamızı sağlıyor. Kubernestes Dashboard veya terminal gibi.
 * Etcd : Tüm metadata cluster verileri key-value şeklinde etcd üzerine tutulur.
 * Kube-Scheduler: Yeni oluşturulan ya da bir node ataması yapılmamış Podları izler ve üzerinde çalışcak bir node seçer.
 * Kube-Controller-Manager : Cluster durumunu izler istenilen durum ile mevcut durumu izler. Mevcut durum ile istenilen durum arasında fark varsa günceller durumları eşitler.
