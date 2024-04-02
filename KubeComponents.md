@@ -15,3 +15,8 @@ Worker Nodes : Podların olduğu kısım.
 Container Runtime : Containerların çalışmasından sorumlu CRI-O.;
 Kubelet : Api Server aracılğıyla etcd kontrol eder ve çalışması gereken bir pod varsa bunu çalışmasını sağlar.
 kube-proxy: nodelar üzerindeki ağ kurallarını yönetir.
+
+
+
+
+![Kubernetes Components]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/kubilaycicek/kubenotes/blob/main/images/KubeComponents.png?raw=true))
