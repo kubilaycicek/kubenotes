@@ -8,3 +8,10 @@ Kube-Controller-Manager : Cluster durumunu izler istenilen durum ile mevcut duru
 - Job Controller
 - Service Account Token Controller
 - Endpoints Controller
+
+
+Master Node : Control Plane Yönetim Kısmı.
+Worker Nodes : Podların olduğu kısım.
+Container Runtime : Containerların çalışmasından sorumlu CRI-O.;
+Kubelet : Api Server aracılğıyla etcd kontrol eder ve çalışması gereken bir pod varsa bunu çalışmasını sağlar.
+kube-proxy: nodelar üzerindeki ağ kurallarını yönetir.
